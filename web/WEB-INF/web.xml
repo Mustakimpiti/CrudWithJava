@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>Save</servlet-name>
+        <servlet-class>code.Save</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>viewServlet</servlet-name>
+        <servlet-class>code.viewServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditServlet</servlet-name>
+        <servlet-class>code.EditServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>code.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Edit2Servlet</servlet-name>
+        <servlet-class>code.Edit2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Save</servlet-name>
+        <url-pattern>/Save</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>viewServlet</servlet-name>
+        <url-pattern>/viewServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditServlet</servlet-name>
+        <url-pattern>/EditServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/DeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Edit2Servlet</servlet-name>
+        <url-pattern>/Edit2Servlet</url-pattern>
+    </servlet-mapping>
+</web-app>
